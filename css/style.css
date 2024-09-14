@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 243, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo{
+    display: flex;
+    height: 155px;
+    width: 100%;
+    background-color: rgb(147, 187, 214);
+    border-radius: 0px 0px 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo_esq{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 19px;
+    font-size: large;
+}
+
+.topo_dir{
+    margin: 0;
+    padding: 0;
+    border-radius: 19px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+    margin:15px;
+}
+.avatar2{
+    width: 30px ;
+    height: 30px;
+    margin: 25px;
+    margin-inline-end: 0;
+}
+.pesquisa{
+    justify-content: center;
+    display: flex;
+    
+}
+.botao{
+    width: 320px;
+    border: 0;
+    height: 50px;
+    margin-top: -25px;
+    border-radius: 5px;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+.titulo_fotos{
+    display: flex;
+    justify-content: space-around;
+
+}
+.h2{
+    margin-left: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    margin-left: 35px;
+}
+.img1{
+    width: 220px;
+    height: 175px;
+    border-radius: 10%;
+    top: -173px;
+    position: relative;
+}
+.img2{
+    width: 220px;
+    height: 350px;
+    border-radius: 10%;
+    margin-left: 25px;
+}
+.img3{
+    width: 220px;
+    height: 350px;
+    border-radius: 10%;
+    top:-150px;
+    position: relative;
+}
+.img4{
+    width: 220px;
+    height: 150px;
+    border-radius: 10%;
+    margin-left: 25px;
+    top: -180px;
+    position:relative;
+}
+.img5{
+    width: 220px;
+    height: 170px;
+    border-radius: 10%;
+    top: -250px;
+    position: relative;
+    
+}
+.img6{
+    width: 220px;
+    height: 290px;
+    border-radius: 10%;
+    top: -155px;
+    margin-left: 25px;
+    position: relative;
+}
+.img7{
+    width: 220px;
+    height: 290px;
+    border-radius: 10%;
+    top: -230px;
+    position: relative;
+}
+.img8{
+    width: 220px;
+    height: 200px;
+    border-radius: 10%;
+    top: -225px;
+    margin-left: 25px;
+    position: relative;
+}
+.caixa_inferior{
+    margin: auto;
+    display: flex;
+    background-color: rgb(147, 187, 214);
+    width: 520px;
+    height: 70px;
+    position:fixed;
+    top: 560px;
+    margin: auto;
+    justify-content: space-around ;
+    align-items: center;
+    border-radius: 20px;
+}
+.img_baixo{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    max-width: 520px;
+    margin: auto;
+}
